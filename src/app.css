@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-moz-selection { /* Code for Firefox */
+    color: rgb(0, 0, 0);
+    background: rgb(0, 255, 221);
+  }
+  
+  ::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(0, 255, 221);
+  }
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #0e0e0e;
+  transition-duration: 250ms;
+
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #ffffff1a;
+  transition-duration: 250ms;
+
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  transition-duration: 250ms;
+
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 247, 255);
+  transition-duration: 250ms;
+
+}
